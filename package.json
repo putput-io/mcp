@@ -1,0 +1,42 @@
+{
+  "name": "putput-mcp",
+  "version": "0.0.1",
+  "description": "MCP server for PutPut file uploads — add file upload tools to Claude Code, Cursor, and Copilot",
+  "type": "module",
+  "bin": {
+    "putput-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "putput",
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "copilot",
+    "file-upload",
+    "ai-tools"
+  ],
+  "homepage": "https://putput.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/putput-io/mcp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@putput/tsconfig": "workspace:*",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5"
+  }
+}
