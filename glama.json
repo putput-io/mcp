@@ -1,0 +1,5 @@
+{
+  "name": "@putput/mcp",
+  "display_name": "PutPut",
+  "description": "File upload API for AI agents. Upload files and get CDN URLs — no signup, no API keys, no OAuth."
+}
