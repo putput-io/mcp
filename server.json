@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.putput-io/mcp",
+  "name": "io.github.putput-io-dev/putput-mcp",
   "description": "File uploads for AI agents. Upload, list, and manage files. No signup required.",
   "repository": {
     "url": "https://github.com/putput-io/mcp",
     "source": "github"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@putput/mcp",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "transport": {
         "type": "stdio"
       },
